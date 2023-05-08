@@ -1,0 +1,61 @@
+body{
+    background-color: #756c6c
+}
+
+
+table,th,tr,td{
+    border: 1px solid #0a1ed3;
+    min-width: 30%;
+    margin: auto;
+    font-size: 1em;
+
+}
+.unidades{
+    text-align: center;
+    background-color: rgb(26, 200, 171);
+}
+h1{
+    text-align: center;
+}
+h2{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+  .center {
+    width: 200px;
+ 
+    display: block;
+    margin: 0 auto;
+    
+ 
+    margin-top: -10px;
+  }
+  input{
+    border: none;
+    width: 98%;
+ 
+  }
+  input:focus{
+    outline: none;
+  }
+
+   
+  
+  h3{
+  text-align: center;
+}
+body{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHkAwgMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAgMBBAUG/8QAIhABAQEAAgEFAQADAAAAAAAAAAIBAxIRBBMUUWEhMUHB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APtAAAANOA3MPmCcPmAJlTMEypMgXJPknyT5IJ9W9Vcg3QEOrNh0dGdQc2yXZdGyWsBzbJKl0VJKkHNsk3HRWJVgJeGH3Cb/AAAnm8nfxvHmT99v+KAAAAAAA2GzGZikgacUnGTikYBpxSZEyrEgyZUmTTKkyBMhvRXJN1BDozZdHVnUHNsp7Lq2U6kHLUp1jpqUqkHNWJ1jorEqwEKxPcWrE9AjGsAAAA3GGwDYpGEnFYwFJxWcJOLRgHnFpwkYtOAaZVyWRis4AmTZP4acPkgl1/C7K/UuyDnqU6l0VKdYDlrErx03iNYDmrEbx03iFghWJVi1YlQJaw2lAAABpsLppBSVYSlWAWlaUZXgFoWhGF4BaFpxKVo/wB5w+SyVMAvX+ErFdToEqxGl6RoELRte0LBC0bXtCwRtGlrRoE6IeiAAAA00lNgKSrCMqwC8rShOrQDoheHNGrxoOiVp1zzqs6DonT5qE0fKBTsStZ2LVAytSs1alWgnaNqXqN6CVo2raF6Cdo0pWp0CdENRQAABnnTSTyMoFp1Wdc+UpNA6Y1adcs0rNg6o1adck2rPIDsmlMpyTyfp85MB2TZstyZyYb3c+wdXcu25/dz7ZvJn2CtUnVJ7yJ1yfoHqkb1lX+pVYCtRrW1aVUDK1KtbVJ7QM0v9G0zyDfOtL5AI92e4495B7oO7OQ2crz/dNnKD0s5lM5nlZzGznB6086mc7x85z56jQezPqMNnqHi56g2epB7eepb8nHifJ37Hyt+we38nGfJx43yv1nydB7G+oLvqHkb6lm+o/gPUrnJvO8zfUaXecHo1zJ7yuDecu8wO7eUm8ji3mL7oOz3B7jj93W5yg7O+Bye4Acu7rPOjWA3zo8sGg3N1vbWADdtb30uNA3bW5e/Zf9DAN237HbftjAN237HbfsowDd9+2d9ZoAdtZ20MBu1rOw1m/wCAHnyPOswA3zrc3StwDedAAP/Z);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
