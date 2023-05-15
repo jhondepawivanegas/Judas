@@ -1,0 +1,103 @@
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 40px 20px 8px;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imagenes/K2.webp);
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: brown;
+    margin-left: 140px;
+    margin-top: 130px;
+    
+}
+.box2{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: rgb(15, 111, 190);
+    margin-left: 140px;
+    margin-top: 130px;
+  
+}
+.box3{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: rgb(190, 15, 161);
+    margin-left: 140px;
+    margin-top: 130px;
+   
+}
+.box4{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: rgb(88, 9, 133);
+    margin-left: 140px;
+    margin-top: 130px;
+   
+}
+.box5{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: rgb(226, 154, 47);
+    margin-left: 140px;
+    margin-top: 130px;
+    cursor: pointer;
+}
+.box6{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: rgb(190, 15, 15);
+    margin-left: 140px;
+    margin-top: 130px;
+    cursor: pointer;
+    
+}
+.box1:hover{
+    box-shadow: 5px 5px 5px  rgb(119, 40, 40), -5px -5px 5px  rgb(75, 29, 148);
+}
+.box2:hover{
+    box-shadow: 5px 5px 5px  rgb(119, 40, 40), -5px -5px 5px  rgb(75, 29, 148);
+}
+.box3:hover{
+    box-shadow: 5px 5px 5px  rgb(119, 40, 40), -5px -5px 5px  rgb(75, 29, 148);
+}
+.box4:hover{
+    box-shadow: 5px 5px 5px  rgb(119, 40, 40), -5px -5px 5px  rgb(75, 29, 148);
+}
+.box5:hover{
+    box-shadow: 5px 5px 5px  rgb(119, 40, 40), -5px -5px 5px  rgb(75, 29, 148);
+}
+.box6:hover{
+    box-shadow: 5px 5px 5px  rgb(119, 40, 40), -5px -5px 5px  rgb(75, 29, 148);
+}
