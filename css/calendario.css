@@ -42,4 +42,6 @@ body {
   }
   
   /* Agrega más reglas CSS según sea necesario para personalizar el calendario */
-  
+  body{
+    background-color: bisque;
+  }

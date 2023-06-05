@@ -7,6 +7,7 @@
 
 
 h1{
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,4 +97,7 @@ h1{
 background-color: rgb(9, 76, 143);
 display: flex;
 justify-items: center;
+}
+body{
+    background-color: black;
 }
