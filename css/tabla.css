@@ -1,0 +1,38 @@
+th,tr,td{
+    color: rgb(228, 1, 1);
+}
+div{
+   color: rgb(113, 252, 0);
+    
+}
+
+ table{
+    border-collapse:collapse ;
+}
+
+th, td{
+    border:1px solid  rgb(189, 13, 13);
+    text-align: center;
+    background-image: url(../imagenes/h1.jfif);
+    
+
+}
+body{
+    background-image: url(../imagenes/r2.jpg);
+    background-size: cover;
+    
+
+}
+h2{
+    color: rgb(235, 235, 235);
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+

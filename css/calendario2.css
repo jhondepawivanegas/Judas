@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+
+
+.calen {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px ;
+    justify-content: center;
+    width: 1750px;
+    margin-left: 30px;
+}
+
+.box {
+    background-color: rgb(0, 241, 201);
+    
+    box-shadow: 3px 3px 5px rgb(17, 34, 71);
+    height:80px; 
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    margin: 5px;
+}
+
+.dias {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px ;
+    justify-content: center;
+    width: 1750px;
+    margin-left: 30px;
+   
+}
+
+.mes     {
+    background-color: rgb(97, 129, 233);
+    border: 2px rgb(110, 122, 233) solid;
+    height:80px;
+    color: rgb(0, 0, 0);
+    display: flex;
+
+    font-size: 1.4em;
+    margin: 5px;
+    text-align: end;
+}
+
+.nes1 {
+    background-color: rgb(97, 129, 233);
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
+
+.nes27{
+    background-color:  rgb(72, 103, 133);
+}
+
+.nes7{
+    background-color:  rgb(72, 103, 133);
+}
+.nes14{
+    background-color: rgb(0, 85, 170);
+}
+.nes21{
+    background-color:  rgb(0, 88, 177);
+}
+.nes28{
+    background-color:  rgb(0, 78, 156);
+}
+.nes6{
+    background-color:  rgb(0, 70, 139);
+}
+.nes13{
+    background-color:  rgb(6, 91, 177);
+}
+.nes20{
+    background-color:  rgb(8, 82, 156);
+}
+.nes34{
+background-color: rgb(9, 76, 143);
+display: flex;
+justify-items: center;
+}
+body{
+    background-color: black;
+}

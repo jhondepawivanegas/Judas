@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <h1>Registro para citas medicas</h1>
+    <div class="form-box"></div>
+    <form>
+        <legend>Por favor, ingrese los datos</legend>
+        <label>ingrese el numero de documento</label>
+        <input type="text" name="numero de Document" placeholder="ingrese documento">
+       
+        <label>ingrese el primer nombre</label>
+        <input type="text" name="primernombre">
+      
+        <label>ingrese el segundo nombre</label>
+        <input type="text" name="segundonombre">
+       
+        <label>ingrese el primer apellido</label>
+        <input type="text" name="primerapellido">
+   
+        <label>ingrese el segundo apellido</label>
+        <input type="text" name="segundoapellido">
+        <br>
+        <label >Desea hacer alguna consulta</label>
+        <textarea name="name" id="ide" cols="40" rows="6"></textarea>
+        <label >ingrese el genero:</label>
+        <input type="radio" name="Genero" value="Masculino"><span class="texto-genero">Masculino</span>
+       <br>
+       <input type="radio" name="Genero" value="Femenino"><span class="texto-genero">Femenino</span>
+       <br>
+       <input type="radio" name="Genero" value="Otros"><span class="texto-genero">Otros</span>
+       <label >selecciona la Aerolineas a tu gusto</label>
+       <br>
+      
+    <input type="checkbox" name="Aerolineas" id="">Avianca <br>
+    <input type="checkbox" name="Aerolineas" id="">Viva air <br>
+    <input type="checkbox" name="Aerolineas" id="">Latam <br>
+    <input type="checkbox" name="Aerolineas" id="">ultra air <br>
+    <input type="checkbox" name="Aerolineas" id="">America airline <br>
+    <label >Selecione el destino:</label>
+    <select name="destino">
+        <option value="San Andres">San Andres</option>
+        <option value="Estados Unidos">Estados Unidos</option>
+        <option value="España">España</option>
+        <option value="Canada">Canada</option>
+        <option value="Florida">Florida</option>
+        <option value="Mi casa">Mi casa</option>
+    </select>
+    <div class="btn-enviar">
+    <input type="submit" value="enviar">
+    </form>
+
+</div>
+</body>
+</html>
