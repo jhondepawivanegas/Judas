@@ -1,11 +1,15 @@
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: poppins,sans-serif;
+
 }
 header {
     height: 70px;
-    background-color: rgb(255, 252, 72);
+    background-color: rgb(234, 251, 3);
     display: grid;
     grid-template: "logo box-input-busqueda hamburguer-menu carrito" /
                     70px 1fr                40px            40px;
@@ -53,9 +57,11 @@ header {
     display: grid;
 }
 .box-producto {
+
     display: grid;
-    grid-template: "box-img box-info" /
-                    3fr     4fr;
+    grid-template: "box-img box-info" 
+                    "linea-div  linea-div"/
+                     3fr     4fr;
     height: 200px;
 }
 .box-img {
@@ -64,8 +70,46 @@ header {
 .box-info {
     grid-area: box-info;
 }
+
+.linea-div{
+grid-area: linea-div;
+height: 1px;
+width: 100%;
+}
 .img-auto {
     padding: 20px;
     width: 100%;
 
+}
+.marca{
+    margin-top: 15px;
+    display: block;
+    font-weight: bold; /* Para hacerlo en negrita */
+    font-size: 1.2em;  
+    margin-bottom: 10px; /* Ajusta este valor según tu preferencia */
+}
+
+.precio{
+    display: block;
+    font-weight: bold; /* Para hacerlo en negrita */
+    font-size: 1.5em;  
+    margin-bottom: 10px; /* Ajusta este valor según tu preferencia */
+}
+.box-corazon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    background-color: rgba(91, 103, 114, 0.713);
+    position: relative;
+    top: -140px;
+    left:105px; 
+   
+}
+.icon-corazon{
+    color: #0043d4;
+
+    font-size: 1.1em;
 }
