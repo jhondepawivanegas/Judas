@@ -9,7 +9,7 @@
 }
 header {
     height: 70px;
-    background-color: rgb(234, 251, 3);
+    background-color: rgb(251, 210, 3);
     display: grid;
     grid-template: "logo box-input-busqueda hamburguer-menu carrito" /
                     70px 1fr                40px            40px;
