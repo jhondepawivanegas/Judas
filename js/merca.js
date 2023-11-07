@@ -102,3 +102,10 @@ window.addEventListener("load", function () {
     });
     
 });
+//filtro
+cargarfiltro();
+ function cargarfiltro() {
+    let boxfiltro = document.createElement("div");
+    mainContent.appendChild(boxfiltro);
+    boxfiltro,setAttribute("class","box-filtro");
+ }
