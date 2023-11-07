@@ -100,4 +100,5 @@ window.addEventListener("load", function () {
     inputBusqueda.addEventListener('input', function () {
         mostrarProductos(inputBusqueda.value);
     });
+    
 });
