@@ -18,8 +18,8 @@ let img3 = "../imagenes/r6yamaha.jpg";
 let img4 = "../img/vamos2/jpg";
 
 let auto1 = new Automovil("Yz", "Supreme",450000, 2015 ,988000,"Pitalito-Huila", "img/Yz-supreme.jpg" );
-let auto2 = new Automovil("Prado", "T800", 400000,2012,930000,"Ibague-Tolima","imagenes/prado.disel.webp" );
-let auto3 = new Automovil("HINO", "500", 350000,2008,860000,"Medellin-Antioquia","imagenes/carro2.jpg" );
+let auto2 = new Automovil("Prado", "Disel", 400000,2012,930000,"Ibague-Tolima","imagenes/prado.disel.webp" );
+let auto3 = new Automovil("Prado", "500", 350000,2008,860000,"Medellin-Antioquia","imagenes/carro2.jpg" );
 let auto4 = new Automovil("Mazda", "Cx50", 140000,2013,182000,"Neiva-Huila","imagenes/Mazda.webp" );
 
 
