@@ -32,8 +32,6 @@ let autos = [auto1, auto2, auto3, auto4];
 
 
 
-
-
 function cargarVehiculo(auto){
 
     let mainContent = document.getElementById("mainContent");
